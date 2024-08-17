@@ -292,6 +292,56 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.api-section {
+    margin: 20pt 0;
+    text-align: center;
+}
+
+.api-search {
+    margin-bottom: 10pt;
+}
+
+.api-search input {
+    padding: 10pt;
+    font-size: 10pt;
+    width: 200px;
+}
+
+.api-search button {
+    padding: 5pt 10pt;
+    font-size: 10pt;
+    background-color: #ab9b71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.api-search button:hover {
+    background-color: #000000;
+}
+
+#meal-results .menu-item {
+    display: inline-block;
+    margin: 10pt;
+    max-width: 200px;
+    text-align: left;
+}
+
+#meal-results img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#meal-results h3 {
+    margin-top: 0.5rem;
+    font-size: 20pt;
+}
+
+#meal-results p {
+    font-size: 10pt;
+    color: #000000;
+}
+
 
 
 @media (max-width: 768px) {

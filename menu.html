@@ -20,6 +20,8 @@
     </header>
 
     <main>
+
+        
         <section class="menu-section">
             <h2>Appetizers</h2>
             <div class="menu-items">
@@ -73,10 +75,25 @@
             </div>
         </section>
     </main>
+    
+    <main>
+        <section class="api-section">
+          <h2>Explore More Dishes</h2>
+              <div class="api-search">
+                  <input type="text" id="meal-search" placeholder="Search for a meal by name...">
+                  <button onclick="searchMeal()">Search</button>
+              </div>
+              <div class="api-search">
+                  <input type="text" id="meal-letter" maxlength="1" placeholder="Search meals by first letter...">
+                  <button onclick="listMealsByLetter()">Search</button>
+              </div>
+              <div id="meal-results" class="menu-items"></div>
+          </section>
+      </main>
 
     <footer id="contact">
         <p>&copy; 2024 Viet Flavors | <a href="mailto:contact@vietflavors.com">contact@vietflavors.com</a> | 123 Hanoi St, Vietnam</p>
-
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
